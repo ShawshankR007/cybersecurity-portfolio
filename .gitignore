@@ -1,0 +1,40 @@
+# Secrets & credentials — NEVER commit these
+*.pem
+*.key
+*.ppk
+*.pfx
+*.p12
+*.env
+.env
+.env.*
+credentials
+credentials.*
+*_rsa
+*_rsa.pub
+aws_credentials
+.aws/
+terraform.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Real scan data that may contain live IPs / findings before redaction
+evidence/raw/
+*.nessus
+*_raw.xml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
