@@ -78,8 +78,4 @@ Mapped against a real cybersecurity engineer job description:
 
 ---
 
-## Author
 
-Shashank Reddy Bora · building this to break into security engineering.
-
-Each project README ends with a short reflection — the honest version of what I learned.
